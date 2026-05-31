@@ -54,11 +54,36 @@ return a + b;
 ## 5.1 Работа с AST  
 ![1.png](1.png)  
 
-![1_1.png](1_1.png)
-
 ## 5.2 Генерация LLVM IR  
 ![2.png](2.png)  
 
-![2_2.png](2_2.png)
+## 5.3 Оптимизация IR  
+![4.png](4.png)  
 
+## 5.4 Графы потока управления (CFG) 
+
+![cfg_main.png](cfg_main.png)  
+
+![cfg_square.png](cfg_square.png)  
+
+# 6. Выполнение индивидуального задания  
+## 6.1 Анализ синтаксического дерева прототипа функции
+
+![variant/9.png](variant/9.png) 
+
+## 6.2 LLVM без оптимизаций (-O0)  
+![variant/10.png](variant/10.png) 
+
+## 6.3 LLVM c оптимизацией (-O2)    
+![variant/11.png](variant/11.png) 
+
+## 6.4 Графы потока управления (CFG)  
+![variant/fg_sum.png](variant/cfg_sum.png)  
+
+![variant/cfg_sum.png](variant/cfg_sum.png)  
+
+## 6.5 Добавление static 
+![variant/12.png](variant/12.png) 
+
+## 6.6 Выводы
 
